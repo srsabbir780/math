@@ -1,0 +1,44 @@
+h2{
+font-size:45px;
+color:#f00;
+margin-top:150px;
+font-family:arial;
+}
+button{
+        width:500px;
+        padding:30px;
+        margin-top:20px;
+        font-size:22px;
+        background:#abcdef;
+        border-radius:10px;
+        border:none;
+        box-shadow:3px 3px 6px gray;
+        outline:none;
+        transition:.5s;
+}
+button:hover{
+        color:#f00;
+        box-shadow:0 0;
+
+}
+.social ul{
+  list-style-type:none;
+  position:absolute;
+  top:300px;
+  right:0;
+}
+
+@media only screen and (max-width:600px){
+  body{
+    margin: 0;
+    padding: 0;
+  }
+h2{
+font-size:35px;
+}
+button{
+font-size:18px;
+width:340px;
+padding:20px;
+}
+}

@@ -1,0 +1,87 @@
+.video{
+  margin:10px 200px 0 200px;
+}
+  h1{
+  font-size:45px;
+  color:#f00;
+  margin-top:150px;
+  text-align: center;
+    }
+    img{
+      width: 200px;
+      height: 250px;
+    }
+    .video p{
+      font-size: 30px;
+    }
+    .six{
+      height: 300px;
+        border-bottom: 1px solid;
+        padding: 20px;
+    }
+    .six img{
+      float:right;
+    }
+    .seven{
+      height: 300px;
+        border-bottom: 1px solid;
+        padding: 20px;
+    }
+    .seven img{
+      float:right;
+    }
+    .eight{
+      height: 300px;
+      border-bottom: 1px solid;
+      padding: 20px;
+    }
+    .eight img{
+      float:right;
+    }
+    .nine{
+      height: 300px;
+    }
+    .nine img{
+      float:right;
+    }
+    button{
+      margin-left: 50px;
+      width:210px;
+      padding: 20px;
+      font-size: 25px;
+      background: #876794;
+      border-radius: 50px;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      transition: .5s;
+    }
+    button:hover{
+      background: #000;
+      color: #fff;
+    }
+    @media only screen and (max-width:600px){
+      body{
+        margin: 0;
+      }
+        .video{
+          margin: 0;
+        }
+        .video p{
+          font-size: 20px;
+        }
+
+        .video img{
+          width: 160px;
+          height: 200px;
+        }
+        button{
+          width:150px;
+          padding: 10px;
+          font-size: 18px;
+          margin-left: 10px;
+        }
+        h1{
+          font-size: 34px;
+        }
+      }
